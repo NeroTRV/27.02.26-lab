@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{{ $title }}</title>
+		
 	</head>
 	<body>
-		{{ $slot }}
+		<conteiner style="border: 1px solid {{$color}}">
+		{{$name}}
+		{{$age}}
+		{{$salary}}
+		</conteiner>
+		
 	</body>
 </html>

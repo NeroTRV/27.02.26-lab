@@ -1,7 +1,14 @@
 <x-layout>
-	<x-slot:title>
-		page title
+	<x-slot:name>
+		name
 	</x-slot>
-	
-	page content
+	<x-slot:age>
+		age
+	</x-slot>
+	<x-slot:salary>
+		salary
+	</x-slot>
+	<x-slot:color>
+		red
+	</x-slot>
 </x-layout>

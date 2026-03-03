@@ -4,6 +4,9 @@
 		<title>my view</title>
 	</head>
 	<body>
-		my view
+		variable one: {{ $var1 }}
+		variable two: {{ $var2 }}
+		
+
 	</body>
 </html>
